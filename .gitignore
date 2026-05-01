@@ -1,0 +1,37 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+data/
+checkpoints/
+wandb/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.h5
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+"@ | Set-Content -Path .gitignore -Encoding UTF8
